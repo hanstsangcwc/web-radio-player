@@ -1,13 +1,13 @@
 const sources = [
   "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_one", // BBC - Radio 1
-  "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_two", // BBC - Radio 1
-  "http://stream.live.vc.bbcmedia.co.uk/bbc_radio_three", // BBC - Radio 1
+  "http://media-sov.musicradio.com/HeartBristolMP3", // Heart Bristol Radio
+  "http://media-sov.musicradio.com/CapitalMP3", // Capital London
 ];
 
 const labels = [
   ["BBC - Radio 1", " http://www.bbc.co.uk/"],
-  ["BBC - Radio 2", " http://www.bbc.co.uk/"],
-  ["BBC - Radio 3", " http://www.bbc.co.uk/"],
+  ["Heart Radio", " https://www.heart.co.uk/"],
+  ["Capital London", " http://www.capitalfm.com/london"],
 ];
 
 let playingIndex = 0; // current radio
