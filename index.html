@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -6,7 +6,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="assets/css/main.css" />
-	<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
 	<script type="text/javascript" src="playback.js"></script>
 </head>
 
@@ -19,34 +19,37 @@
 			<header id="header">
 				<h1>Radio Jukebox</h1>
 				<p>
-					<a id="BBC - Radio 1" onclick="loadStream(0)" style="cursor:pointer"> BBC - Radio 1
-					</a>&nbsp;&bull;&nbsp;
-					<a id="Heart Bristol Radio" onclick="loadStream(1)" style="cursor:pointer"> Heart Bristol Radio
-					</a>&nbsp;&bull;&nbsp;
-					<a id="Capital London" onclick="loadStream(2)" style="cursor:pointer"> Capital London </a>
+					<a id="BBC - Radio 1" onclick="loadStream(0)" style="cursor: pointer">
+						BBC - Radio 1 </a>&nbsp;&bull;&nbsp;
+					<a id="Heart Bristol Radio" onclick="loadStream(1)" style="cursor: pointer">
+						Heart Bristol Radio </a>&nbsp;&bull;&nbsp;
+					<a id="Capital London" onclick="loadStream(2)" style="cursor: pointer">
+						Capital London
+					</a>
 				</p>
 				<nav>
 					<ul>
-						<li><a id="playbackButton" href="#" class="icon fa-play" onclick="changePlayback()"><span
-									class="label">Music</span></a></li>
+						<li>
+							<a id="playbackButton" href="#" class="icon fa-play" onclick="changePlayback()">
+								<span class="label">Music</span>
+							</a>
+						</li>
 					</ul>
 				</nav>
-				<div id="label">
-
-				</div>
+				<div id="label"></div>
 			</header>
 		</div>
 	</div>
 	<script>
 		window.onload = function () {
-			document.body.className = '';
-		}
+			document.body.className = "";
+		};
 		window.ontouchmove = function () {
 			return false;
-		}
+		};
 		window.onorientationchange = function () {
 			document.body.scrollTop = 0;
-		}
+		};
 	</script>
 </body>
 
